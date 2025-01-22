@@ -1,18 +1,11 @@
 body {
     background-color: black;
-    background: url(/url);
-}
-
-.bg {
-    background: url(img/);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(img/Flux_Dev_updatedpromptCreate_an_atmospheric_photograph_of_a_vi_1.jpeg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: .6;
+    background-position: right 35% center;
+    background-attachment: fixed;
 }
 
 #website {
@@ -25,14 +18,18 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    background-color: #ddd;
-    color: black;
+    color: white;
     padding-right: 15px;
     padding-left: 15px;
 }
 
+#header img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .logo {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 25px;
 }
@@ -44,26 +41,49 @@ body {
 .menu li {
     display: inline-block;
     padding: 5px;
+    text-transform: uppercase;
 }
 
 .menu li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 .baner {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 30px 0;
-  }
+    position: relative;
+    height: 500px;
+    width: auto;
+}
+
+.baner h1, h2, p {
+    color: #DDD;
+    text-align: left;
+    margin-top: 20px;
+    padding-right: 75px;
+    padding-left: 55px;
+    padding-top: 200px;
+    border: 0;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1em;
+}
 
 .baner h1 {
-  color: white;
-  font-size: 60px;
-  width: 60%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 50px;
 }
 
 .baner h2 {
-    color: white;
-    font-size: 30px;
-    width: 70%;
-  }
+    font-weight: 700;
+    width: 400px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 0px;
+}
+
+.baner p {
+    padding-top: 0px;
+}
