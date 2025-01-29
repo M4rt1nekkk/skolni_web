@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 #website {
     max-width: 1200px;
     margin: 0 auto;
@@ -40,9 +43,24 @@ nav ul {
 
 .banner-text h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bold;   
 }
 
 .banner-text p {
     font-size: 24px;
 }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Spectral", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
