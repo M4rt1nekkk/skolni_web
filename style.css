@@ -143,10 +143,6 @@ nav ul li a:hover {
     padding: 30px;
 }
 
-.cta h2 {
-
-}
-
 footer {
     background: white;
     color: #007BFF;
@@ -183,4 +179,40 @@ footer {
 
 .footer-social a:hover i {
     transform: scale(1.2);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.block {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.block h3 {
+    color: var(--primary-color);
+}
+
+.block p {
+    color: var(--secondary-color);
+}
+
+.block img {
+    max-width: 20%;
+    height: auto;
+    object-fit: contain;
+}
+
+.block-reverse {
+    flex-direction: row-reverse;
 }
