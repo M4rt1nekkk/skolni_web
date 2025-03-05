@@ -70,6 +70,7 @@ nav ul li a:hover {
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
 .baner-text h1 {
@@ -97,6 +98,7 @@ nav ul li a:hover {
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: all 0.5s;
 }
 
 .feature-head {
@@ -108,7 +110,6 @@ nav ul li a:hover {
 }
 
 .feature:hover {
-    transition: 0.5s;
     transform: scale(1.05);
 
 }
@@ -128,41 +129,76 @@ nav ul li a:hover {
 }
 
 .container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
-}
-
-.block {
-    display: flex;
-    gap: 40px;
-    align-items: center;
-    padding: 20px;
-    background: white;
-    margin: 20px;
+    align-content: center;
+    gap: 100px;
+    background-color: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.block h3 {
-    color: var(--primary-color);
+.container-img {
+    width: 100%;
+    height: 300px;
 }
 
-.block p {
-    color: var(--secondary-color);
+.container-reverse .container-content {
+    margin-bottom: 15px;
 }
 
-.block img {
-    max-width: 20%;
-    height: auto;
-    object-fit: contain;
-}
-
-.block-reverse {
-    display: flex;
+.container-reverse {
     flex-direction: row-reverse;
-    
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 100px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+button:hover {
+    transition: all 0.5s;
+    transform: scale(1.05);
+}
+
+.container-reverse button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.container p {
+    line-height: 1.6rem;
+}
+
+.container-reverse p {
+    line-height: 1.6rem;
 }
 
 * {
@@ -186,6 +222,7 @@ a {
 
 .footer h3 {
     margin-bottom: 20px;
+    font-size: 20px;
     color: var(--primary-color);
 }
 
@@ -201,8 +238,13 @@ a {
 
 .callta {
     text-align: center;
-    display: flex;
     padding: 20px;
     background-color: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    color: var(--primary-color); 
 }
+
+.callta p {
+    color: var(--text-color);  
+}
+
