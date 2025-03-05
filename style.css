@@ -107,6 +107,12 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
+.feature:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+
 .feature-head svg {
     fill: var(--primary-color);
 }
