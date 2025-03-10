@@ -236,11 +236,11 @@ nav ul li a:hover {
     }
     .container {
     flex-direction: column;
-    width: 85%;
+    width: 100%;
     }
     .container-reverse{
     flex-direction: column;
-    width: 85%;
+    width: 100%;
     }
 }
 
